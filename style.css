@@ -1,0 +1,160 @@
+body {
+    background-color: #0b0b0b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 20px;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero Section (VIP Style) */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+                url('https://images.unsplash.com/photo-1544025162-d76694265947') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.vip-badge {
+    background: rgba(230, 57, 70, 0.2);
+    color: #e63946;
+    border: 1px solid rgba(230, 57, 70, 0.4);
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 20px;
+    max-width: 320px;
+}
+
+.hero .btn {
+    padding: 12px 25px;
+    font-size: 15px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.4);
+    display: inline-block;
+}
+
+/* Menu Section */
+.menu-container {
+    padding: 10px;
+}
+
+.menu-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* 2 Cards in One Line on Mobile */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Food Card */
+.food-card {
+    background: #161616;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.food-card h3 {
+    font-size: 13px;
+    margin: 6px 0 2px 0;
+}
+
+.food-card p {
+    font-size: 10px;
+    color: #aaa;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+}
+
+.price {
+    color: #e63946;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.order-btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    font-size: 12px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}

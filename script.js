@@ -65,6 +65,6 @@ confirmOrderBtn.addEventListener('click', () => {
         message += `%0A- Transaction ID: ${txId}`;
     }
 
-    const whatsappUrl = `https://wa.me/923222229987?text=${message}`;
+    const whatsappUrl = `https://wa.me/923712303171?text=${message}`;
     window.location.href = whatsappUrl;
 });
